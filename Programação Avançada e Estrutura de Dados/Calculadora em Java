@@ -7,11 +7,11 @@ public class Main
 {
 	public static void main(String[] args) {
 	    int a = 10, b = 2;
-		System.out.println("Soma=" + soma(a,b));
-		System.out.println("Subtracao=" + subtracao(a,b));
-		System.out.println("Divisao=" + divisao(a,b));
-		System.out.println("Multi=" + multi(a,b));
-		System.out.println("Resto=" + resto(a,b));
+		System.out.println("Soma =" + soma(a,b));
+		System.out.println("Subtração =" + subtracao(a,b));
+		System.out.println("Divisão =" + divisao(a,b));
+		System.out.println("Multiplicação =" + multi(a,b));
+		System.out.println("Resto =" + resto(a,b));
 	}
 	public static int soma(int a, int b)
 	{
