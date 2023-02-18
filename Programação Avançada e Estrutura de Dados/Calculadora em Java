@@ -1,0 +1,36 @@
+/******************************************************************************
+
+Murilo Faria - Calculadora em Java 
+
+*******************************************************************************/
+public class Main
+{
+	public static void main(String[] args) {
+	    int a = 10, b = 2;
+		System.out.println("Soma=" + soma(a,b));
+		System.out.println("Subtracao=" + subtracao(a,b));
+		System.out.println("Divisao=" + divisao(a,b));
+		System.out.println("Multi=" + multi(a,b));
+		System.out.println("Resto=" + resto(a,b));
+	}
+	public static int soma(int a, int b)
+	{
+	    return a + b;
+	}
+		public static int subtracao(int a, int b)
+	{
+	    return a - b;
+	}
+		public static int multi(int a, int b)
+	{
+	    return a * b;
+	}
+		public static int divisao(int a, int b)
+	{
+	    return a / b;
+	}
+		public static int resto(int a, int b)
+	{
+	    return b % a;
+	}
+}
